@@ -1,0 +1,476 @@
+/*	adam strange paintings  
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);*/
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:700);
+
+@import "bootstrap-social.less";
+
+.bold { font-weight:bold;}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 53%; /* 16:9 */
+	padding-top: 3%;
+	height: 0;
+	border: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+/* square thumbnails */
+
+.painting-thumb img {
+float:left;
+width:12.1%;
+margin:.2%;
+}
+
+/* END square thumbnails */
+
+.center {
+    margin: auto;
+    width: 95%;
+	text-align:center;
+}
+
+.bio {
+    margin: auto;
+	padding: 3% 0% 3% 0%;
+	max-width: 500px;
+}
+.container-800 {
+    margin: auto;
+	padding: 3% 0% 3% 0%;
+	max-width: 800px;
+}
+
+
+.container4 {
+    min-height:200px;
+    position: relative;
+	z-index:-100; }
+.container4 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	text-align:center;
+	z-index:-100;
+	}
+
+.container {
+width:100%;
+}
+.top-container {
+width:100%;
+height:42px;
+background-color:#EBEBEB;
+padding: 0px 0px 0px 10px;
+box-shadow: 0px -2px 7px #000;
+position:fixed;
+}
+.top-space {
+height:50px;
+}
+.bottom {
+clear:both;
+}
+
+body {
+    margin: 0 0 0 0;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.footer {
+text-align:center;
+}
+.space {
+height:10px;
+}
+
+.painting-container .painting-outer {
+    width: 100%;
+    padding-top: 76.55%; /* defines aspect ratio */
+    position: relative;
+	background-image:url(../images/oil-paintings/2009-manatee-girl-by-adam-strange.jpg);
+	background-color:#000;
+	background-size: contain;
+	background-repeat:no-repeat;
+	z-index:-100;
+	box-shadow: 2px 2px 5px #888888;
+	margin: 1% auto 1% auto;
+}
+.painting-container .painting-outer .painting-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	
+}
+
+.email-center {
+width:295px;
+margin:0px;
+background-color:#6666CC;
+}
+
+.left-contain-01 {
+width:295px;
+margin:0px;
+}
+.top-nav-1-2 {
+width:295px;
+
+}
+.top-nav-01 {
+float:left;
+width:45px;
+
+}
+.top-nav-02 {
+float:left;
+width:250px;
+
+}
+
+
+.top-nav-03 {
+float:right;
+width:220px;
+}
+
+.container {
+width:100%
+}
+.float-left {
+float:left;
+}
+.float-right {
+float:right;
+text-align:center;
+padding:1.5%;
+font-size:10px;
+max-width:500px;
+}
+.float-right img {
+box-shadow: 0px 0px 5px 2px #999;
+border: 5px solid #fff;
+max-width:100%;
+}
+
+/* Add your own MailChimp form style overrides in your site stylesheet or in this style block. */ 
+
+#mc_embed_signup {
+clear:left; 
+font-family: 'Open Sans', sans-serif;
+text-align:center;
+width:240px;
+margin-left:0px;
+}
+#mc_embed_signup_scroll {
+margin:5px;
+padding:0;
+}
+.email-form {
+width:150px;
+padding:3px 0px 0px 0px;
+border-radius: 10px;
+background-color:rgba(255, 255, 255, 0.3);
+}
+.email {
+  -webkit-border-radius: 7px 0px 0px 7px;
+  -moz-border-radius: 7px 0px 0px 7px;
+  border-radius: 7px 0px 0px 7px;
+  font-family: Arial;
+  color: #000;
+  text-decoration: none;
+  border:0;
+  margin:0px;
+  padding: 0px 0px 0px 10px;
+  font-size: 16px;
+  width:140px;
+  line-height:31px;
+}
+
+.sub-btn {
+   padding:0px 5px 0px 5px ; 
+  margin:0px;   
+   float:right; 
+   border-radius: 0px 10px 10px 0px;
+  -webkit-border-radius: 0px 10px 10px 0px;
+  -moz-border-radius: 0px 10px 10px 0px;
+  font-family: Arial;
+  color: #ffffff;
+  background: #3498db;
+
+  line-height:31px;
+  text-decoration: none;
+  border:0px;
+  font-weight:bold;
+  
+  text-shadow: 1px 1px 1px #2F3B4B;
+  -webkit-appearance: none;
+}
+
+.sub-btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+  -webkit-appearance: none;
+}
+/* END MailChimp form style. */ 
+
+.social {
+  width: 100%;
+  margin: 5px 0px 5px 0px;
+/*  
+  top: 50%; 
+  position: absolute;
+  transform: translateY(-50%);
+*/
+  text-align: center;
+}
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 0px dashed white;
+  background-clip: content-box;
+  padding: 0px;
+  transition: .0s;
+  color: #D7D0BE;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-shadow:
+    0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.2);
+  font-size:10px;
+}
+/*.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.social .link:hover {
+  padding: 0px;
+  color: white;
+  margin-left: 0px;
+  transform: translateX(0px) rotate(360deg);
+  background-color:#CCCCCC;
+}*/
+
+.social .link.instagram {
+  background-color:#517FA4;
+  fill:#fff;
+}
+.social .link.twitter {
+  background-color: #00ACEE;
+  fill:#fff;
+}
+.social .link.facebook {
+  background-color: #3B5998;
+  fill:#fff;
+}
+.social .link.Tumblr {
+  background-color: #33465D;
+  fill:#fff;
+}
+.social .link.Pinterest {
+  background-color: #A81926;
+  fill:#fff;
+}
+.social .link.instagram:hover {
+background-color:#000;
+}
+.social .link.twitter:hover {
+  background-color:#000;
+}
+.social .link.facebook:hover {
+  background-color:#000;
+}
+.social .link.Tumblr:hover {
+  background-color:#000;
+}
+.social .link.Pinterest:hover {
+  background-color:#000;
+}
+.icon-shrink {
+width: 90%;
+transform: translateY(5%);
+}
+
+
+
+.painting img {
+max-width: 100%;
+box-shadow: 2px 2px 5px #888888;
+margin: 1.6% auto 1.6% auto;
+}
+
+.drawing {
+    margin: auto;
+    width: 95%;
+	text-align:center;
+}
+
+.drawing img {
+max-width: 100%;
+margin: 1.6% auto 1.6% auto;
+}
+
+.description {
+    margin: auto;
+    width: 95%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999999;
+	text-align:center;
+}
+.description a {
+	color:#999999;
+}
+hr { 
+border: 0; 
+height: 0; 
+border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+border-top: 5px solid rgba(255, 255, 255, 0); 
+width: 95%;
+margin:0% 2.5%;
+}
+.bio hr { 
+height: 1px; 
+border-bottom: 9px solid rgba(255, 255, 255, 1); 
+border-top: 9px solid rgba(255, 255, 255, 1); 
+width: 100%;
+margin:0%;
+background-color:#E5E5E5;
+
+}
+
+
+
+
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18 px;
+  background: #3498db;
+  padding: 5px 10px 7px 10px;
+  text-decoration: none;
+  border:0;
+  font-weight:bold;
+  margin:5px 0px 0px 0px;
+  text-shadow: 1px 1px 1px #2F3B4B;
+  -webkit-appearance: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+  -webkit-appearance: none;
+}
+
+h1 {
+font-family: 'Amatic SC', sans-serif;
+	font-size: 36px;
+    margin:0;
+}
+h2 {
+font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+    margin: 0.83em 0;
+}
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+.head-1 {
+font-family: 'Open Sans', sans-serif;
+	font-size: 36px;
+}
+.head-2 {
+font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	margin:0;
+}
+.head-3 {
+font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin:0;
+}
+
+@media only screen and (max-width : 600px) {
+.painting-thumb img {
+width:24.1%;
+margin:1px;
+}
+.float-left {
+float:none;
+width:100%;
+padding:0;
+}
+.float-right {
+float:none;
+width:100%;
+padding:0;
+}
+
+}
+
+@media only screen and (max-width : 480px) {
+
+h1 {
+	font-size: 24px;
+}
+.top-container {
+height:84px;
+}
+.top-space {
+height:90px;
+}
+
+.name-1 {
+font-size:24px;
+}
+.left-contain-01 {
+width: 100%;
+margin:auto;
+}
+.top-nav-03 {
+width:100%;
+}
+.email-center {
+width:295px;
+margin:auto;
+}
+
+}
